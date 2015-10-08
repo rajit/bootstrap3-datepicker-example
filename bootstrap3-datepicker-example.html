@@ -1,0 +1,24 @@
+<head>
+  <title>bootstrap3-datepicker-example</title>
+</head>
+
+<body>
+  <h1>Welcome to Meteor!</h1>
+
+  {{> hello}}
+
+  {{> datepicker language="en"}}
+
+  {{> datepicker language="fr"}}
+
+  {{> datepicker language="sv"}}
+</body>
+
+<template name="hello">
+  <button>Click Me</button>
+  <p>You've pressed the button {{counter}} times.</p>
+</template>
+
+<template name="datepicker">
+  <div id="iamthedatepicker{{language}}"></div>
+</template>
